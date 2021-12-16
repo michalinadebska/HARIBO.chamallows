@@ -1,0 +1,777 @@
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* {
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+button {
+    width: 270px;
+    height: 70px;
+    border-radius: 30px;
+    border: none
+}
+
+
+
+button>a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px
+}
+
+nav.desktop {
+    display: none;
+}
+
+body {
+    font-family: 'Chewy';
+    background-color: #CB1177
+}
+
+
+/*FOR MOBILES-MOBILE FIRST APPROACH*/
+
+
+/*HEADER*/
+
+.mobilefirst {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4%;
+    margin-right: 5%
+}
+
+.mobilefirst>a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav#mobile {
+    display: none;
+    flex-direction: column;
+}
+
+
+#mobile>a {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    text-align: center;
+    border-bottom: solid white 2px;
+    margin-bottom: 20px
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10%;
+    font-size: 15px;
+    margin-top: 4%;
+    background-image: url(images/Group\ 86.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: bottom;
+    background-size: 570px;
+}
+
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 35%
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-right: 5%;
+
+}
+
+h3 {
+    color: green;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.package {
+    position: relative;
+    right: 18%;
+}
+
+
+/*INGREDIENTS AND NUTRITIONAL VALUE SECTION*/
+
+
+.ingredients-nutri {
+    position: relative;
+    height: 700px;
+}
+
+.nutritionalvalue {
+    width: 165%;
+    position: absolute;
+    top: 23%;
+    margin-left: -26px
+}
+
+
+article.mobile-nutri {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px 80px 0px;
+    background-image: url(images/Group\ 90.svg);
+    background-size: 400px 400px;
+    background-position: right;
+    color: white;
+    text-align: left;
+
+}
+
+.ing {
+    margin-left: 46px;
+    margin-bottom: 50px;
+}
+
+.ingredients {
+    font-size: 30px;
+    margin-left: 48px;
+}
+
+p.mobile-p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 90px
+}
+
+
+
+/*RECYCLING CAMPAIGN SECTION*/
+
+
+.recycle {
+    width: 147%;
+    margin-left: -36px;
+
+}
+
+.fifty-off {
+    position: relative;
+}
+
+.recyclebutton {
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    height: 30px;
+    width: 120px;
+    border-radius: 14px;
+}
+
+.recyclebutton>a {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+    font-size: 13px
+}
+
+
+
+/*JOIN US ON SOCIAL MEDIA SECTION*/
+
+
+.some {
+    margin-left: 150px;
+    width:200px;
+    
+}
+
+
+
+
+/*FOOTER*/
+
+
+.footer {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+
+}
+
+section>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+
+
+.text>p {
+
+    line-height: 20px;
+    color: white;
+    font-family: 'Chewy';
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+footer {
+    position: relative;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+.footerelements {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.languagepref {
+    margin-left: 20px;
+    background-color: rgba(245, 245, 245, 0.295);
+    border-radius: 20px;
+    width: 320px;
+    height: 27px;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+.languagepref>p {
+    font-size: 15px;
+    margin-top: -6px;
+    color: white;
+    font-weight: lighter
+}
+
+.trademark {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+
+.trademark>p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 23px;
+    margin-top: 7px;
+    padding: 10px
+}
+
+.main {
+    display: none
+}
+
+
+.landingpage {
+    display: none
+}
+
+
+.nutritiondesktop {
+    display: none
+}
+
+
+.desk-nutri {
+    display: none;
+}
+
+.whyarewegreen {
+    display: none
+}
+
+
+.recycling {
+    display: none
+}
+
+.pdesktopfooter {
+    display: none
+}
+
+
+
+.footer-background-desktop {
+    display: none
+}
+
+.bubbles {
+    display: none
+}
+
+
+
+
+/*FOR DESKTOPS*/
+
+@media only screen and (min-width:898px) {
+
+
+    nav.desktop {
+
+        display: flex;
+        padding: 20px;
+        justify-content: flex-end;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: -3%
+    }
+
+    nav.desktop>a {
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        z-index: 2;
+        position: relative;
+
+
+
+    }
+
+    nav.desktop>a:hover {
+        color: rgb(250, 79, 179);
+        transform: scale(1.3);
+
+    }
+
+    .joinus {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* transition: all 0.3 ease-in; */
+        margin-right: 3%;
+    }
+
+    .joinus>.arrow-image {
+        position: absolute;
+        top: 59%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        width: 100%;
+    }
+
+    .joinus:hover {
+        transform: scale(1.3);
+    }
+
+    .joinus-text {
+        margin-right: 20%;
+        font-family: 'Chewy';
+        font-size: 30px;
+    }
+
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        z-index: 2;
+        margin-right: 20px;
+
+    }
+
+    .i {
+        margin-right: 20px;
+    }
+
+
+    .mobile {
+        display: none;
+    }
+
+
+    img.burgermenu {
+        display: none
+    }
+
+    h1,
+    h2,
+    h3 {
+        display: none
+    }
+
+    header {
+        margin-top: -2%;
+        justify-content: flex-start;
+        position: relative;
+        right: 7%;
+        background-image: none
+    }
+
+    .package {
+        display: none
+    }
+
+    .landingpage {
+        display: flex;
+    }
+
+    .main {
+        display: block;
+        width: 55%;
+        margin-left: -24%;
+        z-index: -1;
+        margin-top: -190px;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1
+    }
+
+
+    .landingpage>button {
+        width: 300px;
+        border-radius: 23px;
+        position: absolute;
+        top: 60%;
+        left: 49%;
+        z-index: 2;
+        border: solid 1px black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .landingpage>button>a {
+        text-decoration: none;
+        font-weight: 900;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+
+
+    }
+
+
+
+
+    .nutritionalvalue {
+        display: none
+    }
+
+    .nutritiondesktop {
+        display: block;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: -28%;
+
+    }
+
+
+    .landingpagedesktop {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .packagedesktop {
+        width: 56%;
+        margin-left: -30px;
+        z-index: 2
+    }
+
+    /*INGREDIENTS AND NUTRITIONAL VALUE*/
+
+    #ingredients {
+        display: none
+    }
+
+
+
+
+    .nutritiondesktopversion {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    button.recyclebutton {
+        display: none
+    }
+
+    .desk-nutri {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .ing-desk {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 350px;
+        margin-left: 220px
+    }
+
+
+
+    p.desk-p {
+        font-size: 27px;
+        color: white;
+
+    }
+
+
+    h1.ingredients-d {
+        display: block;
+        font-size: 50px;
+        color: white;
+        margin-left: 50px;
+        margin-top: 50px
+    }
+
+
+
+
+    /*WHY ARE WE GREEN*/
+
+    .whyarewegreen {
+        display: block;
+        z-index: 1
+    }
+
+    img.green {
+        width: 120%;
+        margin-left: 300px;
+        margin-top: -350px;
+
+
+    }
+
+
+    .why {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-end;
+        margin-top: -800px;
+        margin-right: 30px
+    }
+
+
+
+    article.why>p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+
+
+
+    }
+
+
+    article.why>h1 {
+        display: block;
+        font-size: 60px;
+        color: white;
+        margin-bottom: 30px
+    }
+
+
+    .why>button {
+        margin-top: 50px;
+
+    }
+
+
+    /*RECYCLING CAMPAIGN*/
+
+
+    .recycling {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        position: relative;
+        top: 0;
+        left: 0
+    }
+
+    .recycling>img {
+        width: 90%;
+        margin-left: -100px;
+        margin-top: -130px;
+
+
+    }
+
+    .recycling>button {
+        position: absolute;
+        top: 800px;
+        left: 350px
+    }
+
+    .recycle {
+        display: none
+    }
+
+
+    /*JOIN US ON SOCIAL MEDIA*/
+
+
+    .some {
+        display: block;
+        width: 400px;
+        margin-left: 810px;
+        margin-bottom: -290px;
+        margin-top: -140px
+    }
+
+
+
+
+    /*FOOTER*/
+
+
+    footer>img {
+        display: none
+    }
+
+
+
+    .pdesktopfooter {
+        display: block;
+    }
+
+
+    .footer-background-desktop {
+        display: block;
+
+    }
+
+    footer {
+        position: relative;
+        margin-top: 700px
+    }
+
+    .footer-background-desktop {
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    section.text {
+        display: flex;
+
+    }
+
+    .text>p {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: -430px;
+        margin-bottom: -70px
+    }
+
+    section.footer {
+        height: 110px
+    }
+
+    section.footer>p {
+        font-size: 40px;
+        font-family: 'Chewy';
+    }
+
+    section.languagepref {
+        height: 80px;
+        width: 70%;
+        margin-top: -180px;
+
+    }
+
+
+    .languagepref>.p3 {
+        font-size: 30px;
+        margin-top: 12px
+    }
+
+    .languagepref>img {
+        width: 30px;
+        margin-left: 440px
+    }
+
+
+    .trademark>p {
+        font-size: 20px
+    }
+
+
+    .bubbles {
+        display: block
+    }
+
+
+
+}
+/*
+.b1{
+    position:absolute;
+    top:20%;
+    left:89%;
+    transform:rotate(290deg);
+    
+}
+*/
+.b2{
+    position:absolute;
+    top:95%;
+    left:4%
+}
+
+.b3{
+    position:absolute;
+    top:1400px;
+    right:800px
+}
+
+
+.b4{
+    position:absolute;
+    top:2600px;
+    left:940px;
+    width:400px;
+}
+

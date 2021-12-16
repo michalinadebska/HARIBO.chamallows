@@ -1,0 +1,37 @@
+body {
+    font-family: 'Chewy';
+    background-color: #CB1177;
+
+
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    align-items: center;
+    margin-top: 30%
+}
+
+button {
+    width: 600px;
+    height: 90px;
+    border-radius: 40px;
+    border: none
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-family: 'Chewy';
+    color: white;
+
+}

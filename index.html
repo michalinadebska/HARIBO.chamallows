@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+    <link rel="stylesheet" href="mystyles.css">
+
+    <title>HARIBO Chamallows</title>
+
+<!--FAVICON- Icon (logo) showing in the browser's address bar -->
+
+    <link rel="icon" href="./favicon.png" sizes="32x32">
+
+    <!-- SEO -->
+    <meta name="keywords" content="HARIBO, marshmallows, chamallows, candy, vegan friendly, green">
+    <meta name="description" content="Website for the new vegan-friendly HARIBO chamallows">
+    <meta name="author" content="Michalina Debska">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body>
+
+
+    <header class="mobilefirst">
+
+        <a href="#" class="icon" onclick="toggleMenu()">
+            <img class="burgermenu" src="images/burgermenu.svg" alt="Open hidden menu">
+        </a>
+        <nav id="mobile">
+            <a href="#ingredients">WHAT WE CONTAIN</a>
+            <a href="error.html">WHY ARE WE GREEN</a>
+            <a href="#socialmedia">JOIN US!</a>
+        </nav>
+
+    </header>
+
+
+
+    <script>
+        function toggleMenu() {
+            console.log('here');
+            var x = document.getElementById("mobile");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex"
+            }
+        }
+    </script>
+
+
+
+
+
+
+    <nav class="desktop">
+
+<section class="icons">
+
+    <a href="https://www.facebook.com/"><img class="i" src="images/fb.svg" alt="facebook icon" /></a>
+    <a href="https://www.instagram.com/"><img class="i" src="images/ig.svg" alt="instagram icon" /></a>
+    <a href="https://twitter.com/?lang=en"><img class="i" src="images/twitter.svg" alt="twitter icon" /></a>
+
+</section>
+
+
+        <a href="#ingredients.desktop"> WHAT WE CONTAIN </a>
+        <a href="#GREEN"> WHY ARE WE GREEN</a>
+
+        <a class="joinus" href="#socialmedia">
+            <p class="joinus-text" > JOIN US! </p>
+<img class="arrow-image" src="images/arrow.svg" alt="arrow image">
+
+
+<!--PINK ARROW IMAGE ( color changed after the user testing )-->
+
+           <!-- <svg class="arrow-image" xmlns="http://www.w3.org/2000/svg" width="389.437" height="140.767"
+                viewBox="0 0 389.437 140.767">
+                <path id="Union_5" data-name="Union 5"
+                    d="M-7470.49,136.276v-6.231H-7706a29,29,0,0,1-29-29V78.816a29,29,0,0,1,29-29h235.51V43.583A24,24,0,0,1-7434.1,23.027l76.925,46.345a24,24,0,0,1,0,41.115l-76.925,46.347a23.785,23.785,0,0,1-12.339,3.479A24.03,24.03,0,0,1-7470.49,136.276Z"
+                    transform="translate(7735 -19.546)" fill="#f574c4" />
+            </svg>-->
+
+
+        </a>
+    </nav>
+
+<section class="bubbles">
+
+<!--<img class="b1" src="images/b1.svg" alt="bubble number 1 (green)">-->
+<img class="b2" src="images/b2.svg" alt="bubble number 2 (pink)">
+<img class="b3" src="images/b3.svg" alt="bubble number 3 (pink)">
+<img class="b4" src="images/b4.svg" alt="bubble number 4 (green)">
+
+</section>
+
+
+
+
+
+    <header>
+
+        <h1>so soft and fluffy...</h1>
+
+        <section class="heading">
+
+            <h2>now</h2>
+            <h3>green!</h3>
+
+        </section>
+
+        <img class="package" src="images/haribo.package.svg" alt="haribo package">
+
+    </header>
+
+
+    <section class="nutritiondesktopversion">
+
+        <section class="landingpagedesktop">
+
+            <section class="landingpage">
+
+                <button>
+
+                    <img src="images/recycleicon.svg" alt="recycling icon">
+                    <a href="error.html">LET'S RECYCLE</a>
+                    
+                </button>
+
+                <img class="packagedesktop" src="images/packagedesktop.svg" alt="packaging">
+
+                <img class="main" src="images/main.bubble.svg" alt="main bubble with the heading">
+
+            </section>
+
+
+
+
+
+            <section id="ingredients.desktop" class="desk-nutri">
+
+                <img class="nutritiondesktop" src="images/nutrition.svg" alt="nutritional value">
+
+                <article class="whatwecontain">
+
+
+
+                    <section class="ing-desk">
+
+                        <h1 class="ingredients-d">INGREDIENTS</h1>
+                        <p class="desk-p">Glucose syrup,sugar, dextrose, <br>water, humectant: sorbitol syrup,
+                            <br>pectine, fruit and
+                            plant
+                            concentrate: <br>beetroot, safflower, flavouring</p>
+
+                    </section>
+
+
+
+
+                </article>
+
+
+
+
+
+            </section>
+
+
+            <section id="GREEN" class="whyarewegreen">
+
+                <img class="green" src="images/green.svg" alt="why are we green">
+
+                <article class="why">
+
+                    <h1>WHY ARE WE GREEN?</h1>
+                    <p>Introducing HARIBO's new mission.<br> We became "GREEN"! What does it mean? <br>We are
+                        sustainable and environmentally-friendly.<br> Nothing goes to waste here! </p>
+                    <button><a href="error.html">READ MORE</a></button>
+
+                </article>
+
+
+            </section>
+
+        </section>
+
+
+
+
+
+
+        <section id="ingredients" class="ingredients-nutri">
+
+            <article class="mobile-nutri">
+                <section class="ing">
+                    <h1 class="ingredients">INGREDIENTS</h1>
+                    <p class="mobile-p">Glucose syrup,sugar, dextrose, <br>water, humectant: sorbitol syrup,
+                        pectine, fruit and plant
+                        concentrate: beetroot, safflower, flavouring</p>
+                </section>
+            </article>
+
+            <img class="nutritionalvalue" src="images/nutritionalvalue.svg" alt="nutritional value table">
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="fifty-off">
+            <img class="recycle" src="images/recycle1.svg" alt="chamallow chracter">
+            <button class="recyclebutton"><a href="error.html">READ MORE</a></button>
+        </section>
+
+
+
+
+
+
+        <section class="recycling">
+            <img class="recyclingbubble" src="images/recyclingbubble.svg" alt="recycling campaign">
+
+            <button><a href="error.html">READ MORE</a></button>
+
+
+
+        </section>
+
+        <img id="socialmedia" class="some" src="images/followus.svg" alt="social media icons">
+    
+
+
+
+
+        <footer>
+
+            <img src="images/footer.svg" class="footer-background" alt="footer background image">
+            <img src="images/footerdesktop.svg" class="footer-background-desktop" alt="footer background image">
+
+            <section class="footerelements">
+
+                <section class=text>
+
+                    <p class="p1">Imprint <br>
+                        Privacy<br>
+                        Terms of use<br>
+                        Contact
+                    </p>
+
+                    <p class="pdesktopfooter">
+                        Code of conduct <br>
+                        FAQ<br>
+                        Corporate Responsibility<br>
+                        Informant system
+                    </p>
+
+                </section>
+
+                <section class="trademark">
+
+                    <section class="languagepref">
+                        <p class="p3">
+                            United Kingdom (English)
+                        </p>
+
+                        <img src="images/iconarrow.svg" alt="arrow icon">
+
+
+                    </section>
+
+
+                    <p class=trademark>© 2021 HARIBO GmbH & Co. KG</p>
+                </section>
+
+            </section>
+            <section class="footer">
+                <p>Kids and grown-ups love it so, the happy world of Haribo!</p>
+            </section>
+
+
+
+
+        </footer>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

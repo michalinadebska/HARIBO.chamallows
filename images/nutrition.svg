@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2509.221" height="2097.723" viewBox="0 0 2509.221 2097.723">
+  <defs>
+    <filter id="Ellipse_102" x="0" y="563.807" width="1622.706" height="1533.916" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_37" x="1038.868" y="0" width="1470.353" height="1402.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_96" data-name="Group 96" transform="translate(166.481 -655.858)">
+    <g transform="matrix(1, 0, 0, 1, -166.48, 655.86)" filter="url(#Ellipse_102)">
+      <ellipse id="Ellipse_102-2" data-name="Ellipse 102" cx="634.851" cy="495.3" rx="634.851" ry="495.3" transform="matrix(0.85, 0.53, -0.53, 0.85, 535.44, 567.31)" fill="#ff2ea1" opacity="0.885"/>
+    </g>
+    <path id="Path_25" data-name="Path 25" d="M359.6,102.17c200.534,0,326.841-61.746,326.841-16.628S567.58,224.707,367.046,224.707-14.636,69.1-14.636,23.982,159.066,102.17,359.6,102.17Z" transform="translate(508.509 2342.811) rotate(-22)" fill="#fff" opacity="0.137"/>
+    <g transform="matrix(1, 0, 0, 1, -166.48, 655.86)" filter="url(#Path_37)">
+      <path id="Path_37-2" data-name="Path 37" d="M1105.218-378.414c416.105,0,695.968,219.643,695.968,570.932S1344.4,1003.148,928.295,1003.148,351.833,765.259,351.833,413.971,689.113-378.414,1105.218-378.414Z" transform="translate(697.53 381.91)" fill="#048000" opacity="0.111"/>
+    </g>
+    <g id="Group_65" data-name="Group 65" transform="translate(538.756 -796.437)">
+      <text id="NUTRITIONAL_INFORMATION" data-name="NUTRITIONAL INFORMATION" transform="translate(650.229 1864.344)" fill="#fff" font-size="68" font-family="CocolaRegular, Cocola" letter-spacing="0.05em"><tspan x="0" y="0">NUTRITIONAL INFORMATION</tspan></text>
+      <text id="PER_100_G" data-name="PER 100 G" transform="translate(1330.285 1907.344)" fill="#fff" font-size="47" font-family="CocolaRegular, Cocola"><tspan x="0" y="0">PER 100 G</tspan></text>
+      <text id="ENERGY" transform="translate(656.672 1988.231)" fill="#fff" font-size="52" font-family="CocolaRegular, Cocola"><tspan x="0" y="0">ENERGY</tspan></text>
+      <text id="FAT_OF_WHICH_SATURATES" data-name="FAT
+OF WHICH SATURATES" transform="translate(656.672 2058.991)" fill="#fff" font-size="52" font-family="CocolaRegular, Cocola"><tspan x="0" y="0">FAT</tspan><tspan x="0" y="40">OF WHICH SATURATES</tspan></text>
+      <text id="CARBOHYDRATES_OF_WHICH_SUGARS" data-name="CARBOHYDRATES
+OF WHICH SUGARS" transform="translate(658 2177.522)" fill="#fff" font-size="52" font-family="CocolaRegular, Cocola"><tspan x="0" y="0">CARBOHYDRATES</tspan><tspan x="0" y="45">OF WHICH SUGARS</tspan></text>
+      <text id="PROTEIN" transform="translate(656.672 2311.487)" fill="#fff" font-size="64" font-family="CocolaRegular, Cocola"><tspan x="0" y="0">PROTEIN</tspan></text>
+      <text id="SALT" transform="translate(658 2400.386)" fill="#fff" font-size="58" font-family="CocolaRegular, Cocola"><tspan x="0" y="0">SALT</tspan></text>
+      <line id="Line_3" data-name="Line 3" x2="863.114" y2="2" transform="translate(656.672 2007.569)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_4" data-name="Line 4" x2="863.114" y2="2" transform="translate(657.172 2121.991)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_5" data-name="Line 5" x2="863.114" y2="2" transform="translate(651.672 2244.42)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_6" data-name="Line 6" x2="863.114" y2="2" transform="translate(652.67 2337.487)" fill="none" stroke="#fff" stroke-width="1"/>
+      <text id="_1414kJ_333kcal" data-name="1414kJ/333kcal" transform="translate(1315.285 1983.419)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">1414kJ/333kcal</tspan></text>
+      <text id="_0.5g" data-name="                &lt;0.5g" transform="translate(1309.785 2057.825)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" xml:space="preserve">                &lt;0.5g</tspan></text>
+      <text id="_0.1g" data-name="                  0.1g" transform="translate(1310.285 2088.093)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" xml:space="preserve">                  0.1g</tspan></text>
+      <text id="_40g" data-name="                   40g" transform="translate(1312.785 2184.066)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" xml:space="preserve">                   40g</tspan></text>
+      <text id="_25g" data-name="                   25g" transform="translate(1312.785 2218.066)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" xml:space="preserve">                   25g</tspan></text>
+      <text id="_30g" data-name="                  30g" transform="translate(1321.785 2303.589)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" xml:space="preserve">                  30g</tspan></text>
+      <text id="_0.07g" data-name="               0.07g" transform="translate(1321.785 2395.386)" fill="#fff" font-size="29" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" xml:space="preserve">               0.07g</tspan></text>
+    </g>
+    <path id="Path_43" data-name="Path 43" d="M344.51,5.746c193.627-20.494,357.2-75.44,350.593-37.108S518.319,100.179,324.692,120.673-7.869,56.4-1.259,18.072,150.883,26.24,344.51,5.746Z" transform="translate(1287.693 1900.881) rotate(-12)" fill="#fff" opacity="0.147"/>
+  </g>
+</svg>
