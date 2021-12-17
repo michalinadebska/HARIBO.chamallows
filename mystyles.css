@@ -464,7 +464,7 @@ footer {
         width: 300px;
         border-radius: 23px;
         position: absolute;
-        top: 60%;
+        top: 500px;
         left: 49%;
         z-index: 2;
         border: solid 1px black;
@@ -735,14 +735,17 @@ footer {
 
 
     .trademark>p {
-        font-size: 20px
+        font-size: 20px;
+        margin:0;
+        padding: 10px 0 0 0;
+        margin-top:10px;
+        margin-right:960px
     }
 
 
     .bubbles {
         display: block
     }
-
 
 
 }
@@ -767,11 +770,14 @@ footer {
     right:800px
 }
 
-
+/*
 .b4{
     position:absolute;
     top:2600px;
     left:940px;
     width:400px;
 }
+*/
 
+
+.b4{display:none}
